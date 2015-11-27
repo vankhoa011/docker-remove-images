@@ -19,3 +19,11 @@ To use it:
 
     $ docker-rmi --help
 
+Example:
+
+    $ docker-rmi -r nginx -n 3  # Docker remove nginx repo and keep 3 lastest version
+
+    $ docker-rmi # Docker keep 3 lastest version of every repo
+
+
+
