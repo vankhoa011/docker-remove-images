@@ -5,13 +5,7 @@ Docker Remove Obsolete Image
 
 # Installation
 
-If you don't use `pipsi`, you're missing out.
-Here are [installation instructions](https://github.com/mitsuhiko/pipsi#readme).
-
-Simply run:
-
-    $ pipsi install .
-
+sudo pip install docker-rmi
 
 # Usage
 
@@ -21,9 +15,6 @@ To use it:
 
 Example:
 
-    $ docker-rmi -r nginx -n 3  # Docker remove nginx repo and keep 3 lastest version
+    $ docker-rmi -r nginx -n 3  # Docker remove nginx repo and keep 3 latest version
 
-    $ docker-rmi # Docker keep 3 lastest version of every repo
-
-
-
+    $ docker-rmi # Docker keep 3 latest version of every repo
