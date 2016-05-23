@@ -7,7 +7,7 @@ dependencies = ['click', 'docker-py']
 
 setup(
     name='docker-rmi',
-    version='1.0.0',
+    version='1.0.1',
     url='https://github.com/vankhoa011/docker-remove-images',
     license='BSD',
     author='Nguyen Vu Van Khoa',
