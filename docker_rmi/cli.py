@@ -29,7 +29,7 @@ def remove_image(repo, number_version):
     if len(images) >= number_version:
         for i in range(number_version, len(images)):
             try:
-                c.remove_image(image=images[i]['Id'])
+                c.remove_image(image=images[i]['Id'], force=True)
             except docker.errors.APIError as de:
                 print de
             except Exception as ex:
